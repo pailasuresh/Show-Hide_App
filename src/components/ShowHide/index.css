@@ -1,0 +1,50 @@
+/* Write your CSS here*/
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fa7257, #fc63a7);
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: bold;
+  color: white;
+}
+.main-butt {
+  display: flex;
+  margin: 15px;
+}
+.first {
+  margin: 25px;
+}
+.last {
+  margin: 25px;
+}
+
+button {
+  background-color: white;
+  color: #dd1264;
+  border: 2px solid black;
+  padding: 16px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.names {
+  background-color: #fddddb;
+  padding: 25px;
+  text-align: center;
+  margin-top: 18px;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  border-radius: 12px;
+}
